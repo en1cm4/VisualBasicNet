@@ -1,0 +1,50 @@
+Imports System
+
+Public Class Test
+    Public Shared Sub Main()
+        DIM plato1, plato2, plato3, postre1, postre2, postre3, refresco1, refresco2, refresco3 AS string
+        
+        console.writeline("Ingrese su primer plato favorito: ")
+        plato1=console.readline()
+        
+        console.writeline("Segundo plato: ")
+        plato2=console.readline()
+        
+        console.writeline("Tercer plato: ")
+        plato3=console.readline()
+        
+        console.writeline("Ingrese su primer postre favorito : ")
+        postre1= console.readline()
+        
+        console.writeline("Segundo postre: ")
+        postre2= console.readline()
+        
+        console.writeline("Terceer postre: ")
+        postre3= console.readline()
+        
+        console.writeline("Ingrese su primer refresco favorito: ")
+        refresco1= console.readline()
+        
+        console.writeline("segundo postre: ")
+        refresco2= console.readline()
+        
+        console.writeline("tercer postre: ")
+        refresco3= console.readline()
+        
+        console.writeline("Tus platos favoritos son: " + vbcrlf)
+        console.writeline(plato1)
+        console.writeline(plato2)
+        console.writeline(plato3 + vbcrlf)
+        
+        console.writeline("Tus postres favoritos son: " + vbcrlf)
+        console.writeline(postre1)
+        console.writeline(postre2)
+        console.writeline(postre3 + vbcrlf)
+        
+        console.writeline("Tus refrescos favoritos son: " + vbcrlf)
+        console.writeline(refresco1)
+        console.writeline(refresco2)
+        console.writeline(refresco3)
+        
+    End Sub
+End Class
