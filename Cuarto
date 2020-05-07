@@ -1,0 +1,31 @@
+Imports System
+
+Public Class Test
+    Public Shared Sub Main()
+        DIM carrera, apellido, nombre, turno, seccion, semestre AS string
+        'profesora coloco el semestro como string para que sea mas facil trabajar la variable
+        
+        console.writeline("Ingrese su carrera: ")
+        carrera= console.readline()
+        
+        console.writeline("Ingrese su nombre: ")
+        nombre= console.readline()
+        
+        console.writeline("Ingrese su apellido: ")
+        apellido= console.readline()
+        
+        console.writeline("Ingrese su turno: ")
+        turno= console.readline()
+        
+        console.writeline("Ingrese su sección: ")
+        seccion= console.readline()
+        
+        console.writeline("Ingrese su semestre: ")
+        semestre= console.readline()
+        
+        console.writeline("Se le enviara un mensaje al correo")
+        console.write(nombre+"."+apellido+"@istpargentina.edu.pe")
+        console.writeline(" para confirmar que pertenece a la seccion que indica.")
+        
+    End Sub
+End Class
