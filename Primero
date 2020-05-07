@@ -1,0 +1,29 @@
+Imports System
+Public Class Test
+    Public Shared Sub Main()
+        dim alumno,curso as string
+        dim nota1, nota2, nota3 as integer
+        console.writeline("Ingrese el nombre del alumno ")
+        alumno= console.readline()
+        console.writeline("Nombre del curso: ")
+        curso= console.readline()
+
+        console.writeline("Ingrese nota 1: ")
+        nota1= console.readline()
+
+       console.writeline("Ingrese nota 2: ")
+        nota2= console.readline()
+
+        console.writeline("Ingrese nota 3: ")
+        nota3= console.readline()
+
+        console.writeline("Usted se llama "&alumno)
+        console.writeline(" y en el curso de "&curso)
+        console.writeline("usted tiene las siguientes nomas")
+        console.writeline("Nota 1: "&nota1)
+        console.writeline("Nota 2: "&nota2)
+        console.writeline("Nota 3: "&nota3)
+        console.write("Su promedio de este curso seria el siguiente : ")
+        console.write((nota1+nota2+nota3)/3)
+    End Sub
+End Class
