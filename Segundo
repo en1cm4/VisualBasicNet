@@ -1,0 +1,28 @@
+Imports System
+Public Class Test
+    Public Shared Sub Main()
+        DIM int1, int2, int3, int4, int5 AS string
+        console.writeline("Ingresa tu primer intrumento que deseas aprender :" )
+        int1= console.readline()
+        
+        console.writeline("Ingresa tu segundo intrumento que deseas aprender :" )
+        int2= console.readline()
+        
+        console.writeline("Ingresa tu tercer intrumento que deseas aprender :" )
+        int3= console.readline()
+        
+        console.writeline("Ingresa tu cuarto intrumento que deseas aprender :" )
+        int4= console.readline()
+        
+        console.writeline("Ingresa tu quinto intrumento que deseas aprender :" )
+        int5= console.readline()
+        
+        ‘vbcrlf es un comando adicional que aprendi por mi cuenta para hacer un salto de linea
+        console.writeline(vbcrlf+ "Tu quieres aprender estos instrumentos :")
+        console.writeline(int1)
+        console.writeline(int2)
+        console.writeline(int3)
+        console.writeline(int4)
+        console.writeline(int5)
+    End Sub
+End Class
